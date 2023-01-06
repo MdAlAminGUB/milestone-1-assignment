@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+/* Header Section */
+header{
+    background-image: url('images/banner/banner3.png');
+    height: 808px;
+}
+.header-description{
+    padding-right: 230px;
+    padding-top: 216px;
+    text-align: right;
+}
+.header-title{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 10px rgba(0, 229, 255, 0.399);
+}
+.header-details{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    line-height: 26px;
+}
+.header-description button{
+    font-size: 20px;
+    color: #005FAC;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+/* My Failure Section */
+.my-failure-section{
+    margin: 142px 230px;
+    display: flex;
+    box-shadow: 0px 6px 50px rgba(31, 17, 235, 0.573);
+}
+.my-failure-description{
+    text-align: left;
+    padding-top: 200px;
+}
+.my-failue-title{
+    font-size: 40px;
+    color: #151414;
+    text-shadow: 5px 5px 10px rgba(123, 0, 255, 0.251);
+}
+.my-failure-details{
+    font-size: 16px;
+    color: #444343;
+    padding: 25px 0;
+    line-height: 26px;
+}
+.my-failure-bltpoing{
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* My Failure Reason Section */
+.failure-reason{
+    margin: 142px 230px;
+    text-align: center;
+    background: linear-gradient(rgba(115, 0, 255, 0.14), rgb(254, 253, 253), rgba(149, 0, 255, 0.233));
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.failure-reason h3{
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 50px;
+    padding-top: 50px;
+} 
+.failure-description{
+    display: flex;
+    justify-content: space-between;
+}
+.failure-description h4{
+    color: #151414;
+    font-size: 30px;
+    padding: 16px 0px;
+}
+.failure-description {
+    color: #737272;
+    font-size: 25px;
+}
+.failure-details img{
+    width: 200px;
+    height: 200px;
+}
+
+/* My Plan Section */
+.my-plan{
+    margin: 142px 230px;
+    padding-bottom: 50px;
+    text-align: center;
+    box-shadow: 0px 6px 50px rgba(31, 17, 235, 0.573);
+}
+.my-plan h3{
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-shadow: 5px 5px 10px rgba(123, 0, 255, 0.251);
+} 
+.my-plan-description{
+    display: flex;
+    justify-content: space-between;
+}
+.my-plan-description h4{
+    color: #151414;
+    font-size: 30px;
+    padding: 16px 0px;
+}
+.my-plan-description {
+    color: #737272;
+    font-size: 25px;
+}
+
+/* Positive mindset section */
+.positive-mind{
+    background-image: url('images/watch.png');
+    margin: 142px 230px;
+    height: 300px;
+    border-radius: 10px;
+}
+.positive-mind-area{
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    width: 1140px;
+    height: 300px;
+    border-radius: 10px;
+}
+.positive-mind-area h3{
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 60px 0 24px 64px;
+}
+.positive-mind-area button{
+    font-size: 20px;
+    color: #005FAC;
+    padding: 12px 18px;
+    border-radius: 8px;
+    margin-left: 64px;
+    border-color: transparent;
+    font-weight: bold;
+    background: #FFFFFF;
+}
+
+/* Footer Section */
+footer{
+    background: #151414;
+    height: 570px;
+}
+.footer-section{
+    padding: 130px 230px;
+    display: flex;
+    gap: 330px;
+}
+.future h3{
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.future p{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 8px 0;
+    line-height: 26px;
+}
+.future img{
+    padding-right: 17px;
+}
+.subscribe{
+    width: 150px;
+}
+.subscribe h4{
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.subscribe input{
+    padding: 15px 100px 15px 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.subscribe button{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-weight: bold;
+    background: #005FAC;
+    margin-top: 24px;
+    text-align: left;
+}
+::placeholder{
+    color: #FFFFFF;
+}
+
